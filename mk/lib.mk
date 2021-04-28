@@ -29,6 +29,7 @@ endef
 prefix ?= /usr/local
 libdir ?= $(prefix)/lib
 bindir ?= $(prefix)/bin
+includedir ?= $(prefix)/include
 libexecdir ?= $(prefix)/libexec
 datadir ?= $(prefix)/share
 localstatedir ?= $(prefix)/var
